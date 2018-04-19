@@ -1,0 +1,241 @@
+<div id="sommaire">
+							<h3>Sommaire :</h3>
+							<ul>
+								<?php echo creer_sommaire('saga_tutoriel', 'Saga Tutoriel'); ?>
+								<?php echo creer_sommaire('saga_quetedb', 'Saga Quête des DBs'); ?>
+							</ul>
+						</div>
+						<div class="mh">
+							<div class="intro">
+								<img src="http://img27.imageshack.us/img27/7035/babab.png" title="Intro" />
+							</div>
+							<br/>
+							<h2 id="saga_tutoriel">Saga Tutoriel</h2>
+							<?php echo creer_etape(
+										'1',
+										'http://www.2fight.com/images/obsc/d004cca4b97f.jpg',
+										'Bienvenue dans 2Fight !',
+										'C\'est ici que tu vas découvrir le jeu, on va tout te montrer point par point, et en s\'amusant j\'espère !
+											Commençons par un combat !',
+										'http://2fight.com/index.php?page=histoire&amp;ev=224&amp;findialogue=1',
+										'Clique ici !!');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Combattre Wolfy <span class="level">Level 1</span> avec <span class="ki">13.000 de Ki</span></li>
+									<li>Conseil : Combattez seulement Wolfy, ne faite aucune autre action tel que fouiller jusqu'à nouvel ordre.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/objets/902s.png" title="Senzu" /> 1 Senzu</li>
+									<li>Revoir le dialogue : Aucun pour cette étape</li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'2',
+										'http://www.2fight.com/images/obsc/d087d6d3fcb8.jpg',
+										'Commençons le Jeu !',
+										'Mon petit, il va falloir commencer par comprendre comment marche ton personnage.',
+										'http://www.2fight.com/index.php?page=histoire&ev=147',
+										'Clique ici');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Attribuer les 450 points bonus.</li>
+									<li>Conseil : Choissisez bien où vous voulez répartir vos points, aucun retour en arrière ne sera possible.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/objets/902s.png" title="Senzu" /> 1 Senzu</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=147" target="_blank">Découvrir son personnage</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'3',
+										'http://www.2fight.com/images/obsc/ac580da1337c.jpg',
+										'Booste tes caracs !',
+										'Tu vas t\'entrainer maintenant... Exceptionnellement ce sera gratuit et immédiat !',
+										'http://www.2fight.com/index.php?page=histoire&ev=148',
+										'Clique ici...');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Faire un entraînement <a href="http://www.2fight.com/index.php?page=entrainement&entrainement=maison" target="_blank" title="Entraînement maison">ici</a></li>
+									<li>Conseil : Cette entraînement est donc gratuit, choissisez alors +150 en résistance ;).</li>
+									<li>Gain : <img src="http://www.2fight.com/images/caps/jaune.png" title="Capsule jaune" />Éveil de Rou Dai Kaiôshin <br/>
+										<img src="http://www.2fight.com/images/caps/jaune.png" title="Capsule jaune" />Armure lourde </li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=148" target="_blank">Fait un entraînement !</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'4',
+										'http://www.2fight.com/images/obsc/995a70c04d08.jpg',
+										'Le pouvoir des capsules',
+										'Tu as maintenant accès à "Capsules" et "Objets" dans le menu "Persos".
+										Les objets sont de type divers, et leurs utilisations sont très aléatoires. Certains... ne servent à rien !
+										Pour les capsules...',
+										'http://www.2fight.com/index.php?page=histoire&ev=149',
+										'clique ici');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Équiper une ou deux capsules <a href="http://www.2fight.com/index.php?page=capsules" target="_blank" title="Page capsule">ici</a></li>
+									<li>Conseil : Aucun pour cette étape.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/objets/902s.png" title="Senzu" /> 1 Senzu</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=149" target="_blank">Baba explique les capsules</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<h2 id="saga_quetedb">Saga Quête des DBs</h2>
+							<?php echo creer_etape(
+										'5',
+										'http://www.2fight.com/images/obsc/65ab1eb2f442.jpg',
+										'Ton premier combat !!',
+										'Continue ta quête... et va parler à Mamie Voyante dans le menu "Monde".<br/>
+										Aide : Ta barre de vie baisse quand tu te prends des coups, mais remonte 
+										toute seule de quelques milliers de points par heure.',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Combattre & gagner contre <img src="http://www.2fight.com/images/obsc/80e1cebc90c9.gif" title="Bulma" />Bulma <span class="level">Level 1</span> avec <span class="ki">15.000 de Ki</span> <a href="http://www.2fight.com/index.php?page=histoire&ev=150&findialogue=1" target="_blank" title="Combat contre Bulma">ici</a></li>
+									<li>Conseil : Choissisez le combos Agressif.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/obsc/80e1cebc90c9.gif" title="Bulma" />Bulma</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=150" target="_blank">Le premier combat</a><br/>
+										<a href="http://www.2fight.com/index.php?page=histoire&oldev=151" target="_blank">Tu as vaincu ce terrible monstre !</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'6',
+										'http://www.2fight.com/images/obsc/e04e2bc5d654.jpg',
+										'Duo de Héros !',
+										'Tu as maintenant deux personnages. Chacun a des caractéristiques personnalisables,
+										et tu peux jouer l\'un pendant que l\'autre est occupé (entraînement, travail...).
+										Mais... mais.... y\'a plus Baba dans le menu "Monde" !? Jette un œil à la carte... et change de case !',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Lire le dialogue en <a href="http://www.2fight.com/index.php?page=carte&case_x=6&case_y=8" target="_blank">F-8</a> </li>
+									<li>Conseil : Aucun pour cette étape.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/boule2.gif" title="Dragon ball à 2 étoiles" /> Dragon Ball à 2 étoiles<br/>
+										<img src="http://www.2fight.com/images/boule5.gif" title="Dragon ball à 5 étoiles" /> Dragon Ball à 5 étoiles</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=152" target="_blank">La suite du mode histoire, c'est par ici !</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'7',
+										'http://www.2fight.com/images/obsc/3d058ab93db9.jpg',
+										'',
+										'Trouve la prochaine Dragon Ball... cherche le nouveau lieu disponible dans la carte !
+										Aide (qui n\'a rien à voir): En combat, à chaque "round", ton personnage ne peut faire
+										que deux actions différentes : soit il attaque, soit il défend. Dans le premier cas, il
+										enlèvera des points à l\'adversaire, dans le second, il augmentera ses capacité de défenses.',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Lire le dialogue en <a href="http://www.2fight.com/index.php?page=carte&case_x=6&case_y=8" target="_blank">F-8</a> </li>
+									<li>Conseil : Aucun pour cette étape.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/caps/rouge.png" title="Capsule rouge" /> Janken</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=153" target="_blank">À la recherche des DBs</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'8',
+										'http://www.2fight.com/images/obsc/77c2b7e02a74.jpg',
+										'Le cadeau de Tortue Gé-- de Kamesennin',
+										'Maître Kame Sennin va t\'apprendre à utiliser les techniques
+										spéciales, avec les capsules rouges.',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Rendez-vous en <a href="http://www.2fight.com/index.php?page=carte&case_x=9&case_y=7" target="_blank">I-7</a><br/>
+									Équiper la capsule  <img src="http://www.2fight.com/images/caps/rouge.png" title="Capsule rouge" /> Janken<br/>
+									Combattre & utiliser la capsule Janken (Combo : Magicien) contre Muten Rôshi <span class="level">Level 3</span> avec <span class="ki">174.000 de Ki</span></li>
+									<li>Conseil : Aucun pour cette étape.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/objets/902s.png" title="Senzu" /> 1 Senzu</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&ev=154" target="_blank">Le cadeau de Kamesennin</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'9',
+										'http://www.2fight.com/images/obsc/344dd7964dc1.jpg',
+										'Un cadeau pour Kamesennin',
+										'Le vieux maître en demande beaucoup !
+										Aide (qui n\'a rien à voir): En combat, tu donnes un coup
+										dont la puissance est visible dans la barre "Attaque". 
+										Mais l\'adversaire ne se prends pas tout : il absorbe une
+										partie (barre "Absorption"). La vie qu\'il perds réellement
+										s\'envole au-dessus de lui...',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Fouiller sur le même emplacement pour trouver un magazine cochon : <img src="http://www.2fight.com/images/obsc/ab1b97929cb6.jpg" title="Magazine cochon" /></li>
+									<li>Conseil : Fouiller au même endroit où vous êtes.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/boule3.gif" title="Dragon ball à 3 étoiles" /> Dragon Ball à 3 étoiles</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&oldev=155" target="_blank">Kamesennin veut un cadeau</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'10',
+										'http://www.2fight.com/images/obsc/c07144eecb05.jpg',
+										'Tu es maître des capsules',
+										'De nombreux autres lieux s\'ouvrent à toi.
+										Bulma te propose de passer par chez elle, dans la capitale !
+										Aide (qui n\'a rien à voir): En combat, tu fais une "Esquive"
+										parfois et évite tout le coup. Cela n\'a rien à voir avec l\'"Absorption" !
+										Quand tu es en défense, que tu as beaucoup de Résistance, cela augmente tes possibilité d\'Esquives.',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Lire le dialogue en <a href="http://www.2fight.com/index.php?page=carte&case_x=4&case_y=5" target="_blank">D-5</a> puis valider l'étape.</li>
+									<li>Conseil : Aucun pour cette étape.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/objets/902s.png" title="Senzu" /> 1 Senzu</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&ev=156" target="_blank">Suite du mode histoire, ici !</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+							<?php echo creer_etape(
+										'11',
+										'http://www.2fight.com/images/obsc/6be172cf0c53.jpg',
+										'Le terrible démon Oolong',
+										'La quête pour les Dragon Ball continue. Le radar t\'indique <a href="http://www.2fight.com/index.php?page=carte&case_x=3&case_y=9" target="_blank">C-9</a> ...
+										Une fois le Dragon Ball récupéré, tu pourras combattre les autres joueurs !',
+										'',
+										'');
+							?>
+							<span class="action">
+								<ul>
+									<li>Action à réalisé : Combattre & gagner Oolon <span class="level">Level 1</span> avec <span class="ki">35.000 de Ki</span> </li>
+									<li>Conseil : Attaquer en combo agressif.</li>
+									<li>Gain : <img src="http://www.2fight.com/images/boule6.gif" title="Dragon ball à 6 étoiles" /> Dragon Ball à 6 étoiles<br/>
+												<img src="http://www.2fight.com/images/icos/zenis.png" title="zénis" /> 1.000 Zénis</li>
+									<li>Revoir le dialogue : <a href="http://www.2fight.com/index.php?page=histoire&ev=158" target="_blank">Le village terrorisé</a><br/>
+															<a href="http://www.2fight.com/index.php?page=histoire&oldev=160" target="_blank">Après le combat</a></li>
+								</ul>
+								<span class="action_fin"></span>
+							</span>
+							<br/>
+						</div>

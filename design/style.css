@@ -1,0 +1,833 @@
+/*copyright by kitgraphiquegratuit.org*/
+
+body, html 
+{
+	background : #1c1c1c url(images/fond.png) repeat-x;
+	margin : 0;
+	padding : 0;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	text-align : center;
+	color : #FFF;
+	font-size : 12px;
+}
+   
+#conteneur
+{
+	margin : 0 auto 0;
+	position : relative;
+	width : 1024px;
+	padding : 0;
+	text-align : left;
+	background : #1c1c1c;
+}
+
+#header 
+{
+	margin : 0 auto 0;
+	width  : 1024px;
+	height : 141px;
+	background : url(images/header.png) no-repeat top;
+	padding : 0;
+}
+
+#left
+{
+	width : 170px;
+	float : left;
+}
+
+#right      
+{
+	width : 170px;
+	float : right;
+}
+
+.content
+{
+	margin-left : 170px;
+	margin-right : 170px;
+	margin-bottom : 30px;
+}
+
+
+/*News*/
+
+.nh
+{
+	background : url(images/nh.png);
+	width : 680px;
+	margin : 0 auto;
+	padding : 0;
+	color : #232323;
+	height : 20px;
+}
+
+.nf
+{
+	background : url(images/nf.png);
+	width : 650px;
+	margin : 0 auto;
+	padding : 0 15px 0 15px;
+	color : #5c5c5c;
+}
+.nb
+{
+	background : url(images/nb.png);
+	width : 680px;
+	margin : 0 auto;
+	padding : 0;
+	color : #232323;
+	height : 26px;
+}
+
+/*Slogan*/
+
+ul.slogan
+{
+	margin : 10px 0 0 0;
+	padding : 0;
+	width : 340px;
+	text-decoration : none;
+	position : absolute;
+	right : 0;
+}
+
+ul.slogan li
+{
+	color : #FFF;
+	height : 14px;
+	font-size : 14px;
+	list-style-type : none;
+	text-decoration : none;
+	margin : 12px 0 0 0;
+	padding-top : 4px;
+	padding-left : 55px;
+	font-weight : bold;
+}
+
+li#bleu
+{
+	color:#024b75;
+}
+
+/*Menu*/
+
+.mh
+{
+	background : url(images/mh.png);
+	width : 170px;
+	margin : 0 auto;
+	padding : 11px 0 0 0;
+	color : #232323;
+	height : 15px;
+	text-align : center;
+	font-size : 10px;
+	font-weight : bold;
+}
+
+.mf
+{
+	background : url(images/mf.png);
+	width : 140px;
+	margin : 0 auto;
+	padding : 0 15px 0 15px;
+	color : #2b2b2b;
+	text-align : center;
+}
+
+.mb
+{
+	background : url(images/mb.png);
+	width : 170px;
+	margin : 0 auto;
+	padding : 0;
+	color : #232323;
+	height  :24px;
+}
+
+ul.menu
+{
+	margin : 0;
+	padding : 3px 0 3px 0;
+	width : 140px;
+	text-decoration : none;
+	text-align : left;
+	font-size : 10px;
+}
+
+ul.menu li
+{
+	margin : 0 0 0 5px;
+	padding : 0;
+	list-style-type : none;
+	font-weight : bold;
+}
+
+ul.menu li a
+{
+	color : #2b2b2b;
+	font-size : 10px;
+	height : 15px;
+	text-decoration : none;
+	width : 140px;
+	margin : 0;
+	line-height : 15px;
+}
+
+ul.menu li a:hover
+{
+	color : #1e89c7;
+}	   	  
+
+/*Class générique*/
+
+.clear
+{
+	clear : both;
+	visibility : hidden;
+}
+
+h1
+{
+	color : #1e89c7;
+	text-align : center;
+	font-weight : bold;
+}
+
+img, p, h1, h2, h3, h4, h5, h6, Span, object, table, td, tr, form
+{
+	border : 0;
+	margin : 0;
+	padding : 0;
+}
+ 
+a
+{
+	color : #1e89c7;
+	text-decoration : none;
+	outline : none;
+	font-weight : bold;
+}
+
+a:hover
+{
+	color : #2b2b2b;
+}
+
+.erreur 
+{ 
+	display : block;
+	color : red; 
+	text-align:center;
+	font-weight : bold;
+}		 
+
+ 
+/*Pied et copyright*/  
+
+#pied
+{
+	height : 70px;
+	background : #b5f442 url(images/footer.png) repeat-x ;
+	padding : 20px 0 0 0;
+	text-align : left;
+}
+
+#piedlien
+{
+	margin : 0 auto 0;
+	width : 1000px;
+	color : #2b2b2b;
+}
+
+#piedgauche
+{
+	margin : 0 auto 0;
+	width : 200px;
+	float : left;
+	text-align : center;
+}
+	
+#piedgauche Span
+{
+	color : #2b2b2b;
+	font-size : 18px;
+	font-weight : bold;
+}
+
+#piedcentre
+{
+	margin : 0 auto 0;
+	width : 540px;
+	margin : 0 200px 0 200px;
+	border-left : 1px solid #d8fa99;
+	border-right : 1px solid #d8fa99;
+	padding : 0 25px 0 25px;
+}
+
+#piedcentre Span
+{
+	color : #2b2b2b;
+	font-size : 18px;
+	font-weight : bold;
+}
+
+#pieddroite
+{
+	margin : 0 auto 0;
+	width : 200px;
+	float : right;
+	text-align : center;
+}
+
+#pieddroite Span
+{
+	color : #2b2b2b;
+	font-size : 18px;
+	font-weight : bold;
+}
+	
+
+
+ul.menu_pied
+{
+	margin : 0;
+	padding : 3px 0 3px 0;
+	text-decoration : none;
+	text-align : center;
+}
+
+ul.menu_pied li
+{
+	margin : 0 0 0 0;
+	padding : 0;
+	list-style-type : none;
+	font-weight : bold;
+}
+
+ul.menu_pied li a
+{
+	color : #2b2b2b;
+	text-decoration : none;
+	margin : 0;
+	font-size : 12px;
+}
+
+ul.menu_pied li a:hover
+{
+	color : #FFF;
+}
+
+#piedcentre a
+{
+	color : #2b2b2b;
+	font-size : 10px;
+	font-weight : bold;
+	text-decoration : none;
+	outline : none;
+}
+
+#piedcentre a:hover
+{
+	color : #FFF;
+}
+
+
+/*Information*/
+
+#information 
+{
+	color : green;
+	text-align : center;
+}
+
+#erreur
+{
+	color : red;
+	text-align : center;
+}
+#info
+{
+	text-align : center;
+}
+
+/*Fil d'ariane*/
+#fil_ariane, #fil_ariane a
+{
+	font-size : 10px;
+}
+
+a.in
+{
+	color : grey;
+}
+
+#refresh
+{
+	
+	background:url(images/refresh_icon.gif) top right no-repeat;
+	width:20px;
+	height:20px;
+	padding: 0 0 0 10px;
+	cursor: pointer;
+	border:0;
+}
+
+/* Affichage des news */
+.titre_news
+{
+	color : #1e88c6;
+	text-align : center;
+	font-weight : bold;
+}
+
+.news_info
+{
+	display : block;
+	text-align : right;
+	font-style : italic;
+}
+
+/* Système de pagination */
+.p
+{
+	display : block;
+	text-align : center;
+}
+
+.page_a
+{
+	color : red;
+}
+
+/* Tableaux */
+table.liste_membre
+{
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th.liste_membre
+{
+	color : #ffffff;
+    border: 1px solid black;
+	text-align : center;
+	background : url("MH.png") repeat-x;
+}
+
+td.liste_membre
+{
+    border: 1px solid black;
+	text-align : center;
+}
+
+td.liste_membreth
+{
+	color : #ffffff;
+    border: 1px solid black;
+	text-align : center;
+	background : url("MH.png") repeat-x;
+}
+
+.mp_statut
+{
+	width : 20%;
+}
+
+.mp_titre
+{
+	width : 20%;
+}
+
+.mp_expediteur
+{
+	width : 20%;
+}
+
+.mp_time
+{
+	width : 20%;
+}
+
+.mp_action
+{
+	width : 20%;
+}
+
+.new_mp
+{
+	color : red;
+}
+
+.vt_auteur
+{
+	width : 10%;
+}
+
+.vt_mess
+{
+	width : 20%;
+}
+
+#vt_mess_sign
+{
+	margin-top : 70px;
+}
+
+.ligne_0 
+{
+	background-color: #ffffff;
+}
+
+.ligne_1
+{
+	background-color: #bbbbbb;
+}
+
+/* Affichage des profils */
+
+.masculin
+{
+	color : blue;
+}
+
+.feminin
+{
+	color : #FF33FF;
+}
+
+.actif 
+{
+    color: blue;
+    font-weight: bold;
+}
+
+.inactif
+{
+    color: red;
+    font-weight: bold;
+}
+
+#profil
+{
+	display : block;
+	margin : auto;
+}
+
+.cellule, .cellule2
+{
+	width : 100%;
+	border : 1px solid #000000;
+	-moz-border-radius : 20px;
+	margin : 5px;
+	background-color : white;
+}
+
+.cellule3
+{
+	width : 100%;
+	border : 1px solid #000000;
+	-moz-border-radius : 20px;
+	margin-left : 5px;
+	background-color : white;
+}
+
+.cellule_titre
+{
+	display : block;
+	color : #1e89c7;
+	text-align : center;
+	margin-bottom : 10px;
+}
+
+.cellule_avatar
+{
+	float : left;
+	margin-left : 25px;
+	margin-right : 25px;
+}
+
+.cellule_texte
+{
+	margin : 5px;
+}
+
+.donnees
+{
+	font-weight : bold;
+}
+
+.float_ig
+{
+	padding-bottom : 40px;
+}
+
+
+#previewDiv {
+	border: 1px solid #CCCCCC;
+	margin: 2em;
+}
+#viewDiv, #viewDiv2 {
+	border: 1px solid #CCCCCC; 
+	margin: 2em;
+}
+
+.citation, .code {
+	font-weight: bold;
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+.citation2, .code2 {
+	border: 1px dashed #0099FF;
+	background-color: #FFFFFF;
+	width: 90%;
+	padding: 8px;
+	margin: auto;
+	overflow: auto;
+}
+
+.ttpetit
+{
+	font-size: xx-small;
+}
+
+.tpetit
+{
+	font-size: x-small;
+}
+
+.petit
+{
+	font-size: small;
+}
+
+.gros
+{
+	font-size: large;
+}
+
+.tgros
+{
+	font-size: x-large;
+}
+
+.ttgros
+{
+	font-size: xx-large;
+}
+
+/* Forum */
+
+
+td.liste_membreth
+{
+	color : #ffffff;
+    border: 1px solid black;
+	text-align : center;
+	background : url("MH.png") repeat-x;
+}
+
+th.thliste_membre
+{
+	text-align : center;
+}
+
+.forum_avatar
+{
+	display : block;
+	margin-top : 20px;
+}
+
+.forum_mp
+{
+	display : block;
+	margin-bottom : 20px;
+}
+
+#forum_mess
+{
+	padding : 5px;
+}
+
+#legend_fofo
+{
+	text-align : center;
+}
+
+a img
+{
+	border : none;
+}
+
+#nb_page_topic, #nb_page_topic a, #nb_page_topic p
+{
+	font-size : 10px;
+	text-align : right;
+}
+
+#lock
+{
+	text-align : right;
+}
+
+.post_edit
+{
+	display : block;
+	font-size : 10px;
+	font-style : italic;
+	text-align : left;
+	margin : 50px;
+}
+
+/* Affichage des astuce */
+
+#astuce_2fight
+{
+	margin : auto;
+	text-align : center;
+}
+
+#sommaire
+{
+	text-align : left;
+}
+
+.etape_img
+{
+	float : left;
+}
+
+.etape_gain
+{
+	float : right;
+}
+
+.etape_click a
+{
+	font-weight : bold;
+	font-size : 18px;
+}
+
+.action_fin
+{
+	display : block;
+	margin : auto;
+	border-bottom : 2px solid black;
+	width : 650px;
+}
+
+.level
+{
+	color : red;
+	font-weight : bold;
+}
+
+.ki
+{
+	font-weight : bold;
+}
+
+.classe
+{
+	font-weight : bold;
+}
+
+.combo
+{
+	color : blue;
+	font-weight : bold;
+}
+
+.lien_q_alt a
+{
+	color : red;
+}
+
+.mh_2f table
+{
+	border-collapse : collapse;
+}
+.mh_2f td
+{
+	border : 2px solid black;
+}
+
+.qa table
+{
+	border-bottom : none;
+}
+
+#p
+{
+	text-align : center;
+}
+
+.etape_2f
+{
+	border-bottom : 1px solid black;
+}
+
+/* CDC - Mise en page */
+.chiffre_romain
+{
+	list-style-type: upper-roman;
+}
+
+.lettre_minuscule
+{
+	list-style-type: lower-alpha;
+}
+
+.chiffre_romain_petit
+{
+	list-style-type : lower-roman;
+}
+
+/* Affichage astuce - tutoriel MEP */
+
+#info_astuce
+{
+	border : 1px solid black;
+	width : 150px;
+	height : 100px;
+	float : right;
+}
+
+#photo_web
+{
+	width : 32px;
+	height : 222px;
+	background : url("web.jpg");
+}
+
+.down
+{
+	display : block;
+	text-align : center;
+	color : red;
+}
+
+#spoiler
+{
+	margin : auto;
+}
+
+.search
+{
+	display : block;
+	text-align : right;
+}
+
+#form_center
+{
+	text-align : center;
+}
+
+.p_center
+{
+	display : block;
+	text-align : center;
+}

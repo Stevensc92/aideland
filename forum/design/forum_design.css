@@ -1,0 +1,29 @@
+#legend_fofo
+{
+	text-align : center;
+}
+
+a img
+{
+	border : none;
+}
+
+#nb_page_topic, #nb_page_topic a, #nb_page_topic p
+{
+	font-size : 10px;
+	text-align : right;
+}
+
+#lock
+{
+	text-align : right;
+}
+
+.post_edit
+{
+	display : block;
+	font-size : 10px;
+	font-style : italic;
+	text-align : left;
+	margin : 50px;
+}
